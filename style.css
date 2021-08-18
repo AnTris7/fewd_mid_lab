@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+header {
+  justify-content: space-between;
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.623);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.modal-box {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  border: 1px rgb(128, 128, 128) solid;
+  z-index: 3;
+  left: 40%;
+  bottom: 40%;
+  text-align: center;
+}
+
+.modal-box > h1 {
+  margin-top: 15%;
+  color: #14a96d;
+}
+
+.nav-1 {
+  margin-left: 2%;
+  margin-top: 7%;
+}
+
+.nav-2 {
+  margin-right: 2%;
+  margin-top: 3%;
+}
+
+header nav > a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  margin-right: 6px;
+}
+
+.flex {
+  display: flex;
+}
+
+#logo {
+  height: 80%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+/*           hero section         */
+
+.hero-container {
+  background-image: url("img/hero.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-text {
+  align-self: center;
+  width: 50%;
+  margin-left: 1.5%;
+}
+
+.main-text-2 {
+  width: 80%;
+  font-size: 2em;
+  margin-top: 2%;
+  color: rgba(97, 97, 97, 0.822);
+}
+
+.main-text > h1 {
+  font-size: 3em;
+  color: rgb(97, 97, 97);
+}
+
+.search-btn {
+  padding: 9px 21%;
+  border: none;
+  background-color: #14a96d;
+  color: white;
+  font-weight: bold;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+
+/*            facts section               */
+
+.facts-container {
+  margin-bottom: 7%;
+}
+
+.facts-container > h2 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.facts-container2 {
+  justify-content: space-between;
+}
+
+.icon > img {
+  width: 90%;
+}
+
+.service-container {
+  width: 100%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.service-col {
+  width: 40%;
+}
+
+.icon {
+  width: 100px;
+}
+
+.service-text > p:first-child {
+  font-weight: bold;
+  margin-bottom: 7%;
+  margin-top: 3%;
+}
+
+.sitters-container1 {
+  width: 40%;
+  margin-top: 3%;
+}
+.sitters-container2 {
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  width: 90%;
+}
+
+.sitters-header {
+  padding: 4% 19%;
+  background-color: rgba(128, 128, 128, 0.125);
+  border-bottom: solid rgba(128, 128, 128, 0.255) 1px;
+}
+
+.sitters-header > img {
+  width: 8%;
+  margin-right: 2%;
+}
+
+.sitters-header > p {
+  margin-top: 1%;
+}
+
+.sitters-text > ul {
+  margin-left: 6%;
+}
+
+.sitters-text {
+  padding: 5%;
+}
+
+.sitters-btn {
+  padding: 2% 25%;
+  background-color: rgba(52, 167, 52, 0.892);
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 7%;
+  font-size: 13px;
+  margin-bottom: 5%;
+}
+
+/* action section */
+
+.action-banner {
+  background-image: url("img/lady-with-her-dogs.jpg");
+  height: 600px;
+  margin: 5% auto;
+  width: 94%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.testimonial {
+  border: 2px solid rgba(128, 128, 128, 0.295);
+  width: 29%;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  padding: 2%;
+  line-height: 30px;
+  left: 5%;
+  top: -10%;
+}
+.testimonial > p:nth-of-type(2) {
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.testimonial > p > a {
+  text-decoration: none;
+}
+
+.testimonial > p:nth-of-type(3) {
+  margin-top: 5%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.steps > h2 {
+  text-align: center;
+}
+
+.steps-container {
+  margin: auto;
+  width: 90%;
+  padding-bottom: 6%;
+}
+
+.steps-item {
+  margin-top: 5%;
+  width: 40%;
+  padding: 0 3%;
+}
+
+#booking-icon {
+  width: 20%;
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+
+#search-icon {
+  width: 23%;
+  margin-left: 40%;
+}
+
+#relax-icon {
+  width: 17%;
+  margin-top: 2%;
+  margin-left: 30%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgba(155, 151, 151, 0.507);
+}
+
+span {
+  display: none;
+  margin-top: 0%;
+  color: #14a96d;
+  border: 1px solid #c2c4c5;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+.search-btn-mobile {
+  display: none;
+}
+
+.rover-mobile-hero-container {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/*   mobile  layout   */
+
+@media all and (max-width: 850px) {
+  nav > a {
+    display: none;
+  }
+
+  nav > span {
+    display: block;
+  }
+
+  .main-text-1 {
+    display: none;
+  }
+
+  .main-text {
+    width: 100%;
+    margin-left: 15%;
+    font-size: 15px;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  .search-btn-mobile {
+    display: block;
+    width: 80%;
+    padding: 1.5% 0;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .hero-container {
+    background-image: none;
+    height: 300px;
+    width: 100%;
+  }
+
+  .facts-container {
+    margin-top: 6%;
+  }
+
+  .rover-mobile-hero-container {
+    display: block;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  .rover-mobile-hero-container > img {
+    width: 46%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .facts-container2 {
+    display: block;
+  }
+
+  .service-col {
+    width: 100%;
+  }
+
+  .icon {
+    width: 8%;
+  }
+
+  .sitters-container1 {
+    width: 100%;
+    margin-left: 7%;
+  }
+
+  .testimonial {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -5px;
+  }
+
+  .action-banner {
+    background-size: 100% 90%;
+  }
+
+  .steps-container {
+    display: block;
+    width: 100%;
+  }
+
+  .steps-item {
+    display: flex;
+    width: 100%;
+  }
+
+  .steps-item div > p {
+    color: rgb(126, 122, 122);
+  }
+
+  #search-icon {
+    margin: 0;
+    width: 7%;
+    margin-right: 1%;
+  }
+
+  #booking-icon {
+    margin: 0;
+    width: 7%;
+    margin-right: 1%;
+  }
+
+  #relax-icon {
+    width: 4%;
+    margin: 0;
+    margin-right: 3%;
+  }
+}
