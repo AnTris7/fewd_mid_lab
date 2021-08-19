@@ -14,6 +14,7 @@
   <body>
     <div class="bg-overlay hidden"></div>
     <div class="modal-box hidden">
+      <span class="exit">&times;</span>
       <h1>Sign up now</h1>
     </div>
 
@@ -28,14 +29,29 @@
       </div>
 
       <nav class="nav-2">
-        <a id="signup" href="#">Sign Up </a>
+        <a id="signup1" href="#">Sign Up </a>
         <a href="#">Sign In</a>
         <a href="#">Help</a>
-        <span><i class="fa fa-bars" style="font-size: 30px"></i></span>
+        <button class="mobile-menu-btn">
+          <i class="fa fa-bars" style="font-size: 30px"></i>
+        </button>
       </nav>
+
+      <!--mobile nav between these lines-->
+
+      <nav class="mobile-nav hidden">
+        <span class="close">x</span>
+        <a href="#">Search Sitters </a>
+        <a href="#">Become a Sitter</a>
+        <a href="#">Our Services</a>
+        <a href="#">Sign Up </a>
+        <a href="#">Sign In</a>
+        <a href="#">Help</a>
+      </nav>
+
+      <!--mobile nav between these lines-->
     </header>
 
-    <!--  big banner section -->
     <section class="hero-container flex">
       <div class="main-text">
         <h1 class="main-text-1">We're The Dog People</h1>
